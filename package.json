@@ -1,0 +1,26 @@
+{
+  "name": "nimbus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "Georges Maroun https://github.com/george-maroun, Zhaowei Sun https://github.com/zhaowei-sun, Arthur Su https://github.com/suster22, Madeline Doctor https://github.com/madelinedoctor1, , Arturo Kim https://github.com/arturokim",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "@electron-forge/maker-deb": "^6.0.5",
+    "@electron-forge/maker-rpm": "^6.0.5",
+    "@electron-forge/maker-squirrel": "^6.0.5",
+    "@electron-forge/maker-zip": "^6.0.5",
+    "dotenv": "^16.0.3",
+    "electron": "^23.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
